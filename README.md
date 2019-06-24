@@ -20,7 +20,7 @@ Before installing SWARM Masternode, following is required on host machine/VPS:
 ## Masternode installation
 It is strongly recommended for SWARM Masternode to use dedicated VPS. Follow the instructions for installation of listed requirements, and clone this repository on Masternode:
 
-`> git clone https://github.com/MVPWorkshop/swarm-masternode.git masternode`
+`> git clone https://github.com/swarmfund/swarm-masternode.git masternode`
 
 Provide volume mounts for IPFS container. By default, `./ipfs` and `./ipfs/staging` directories relative to cloned directory are used for IPFS container's data and work directories. 
 
