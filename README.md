@@ -4,9 +4,14 @@ This repository contains instructions, commands and configurations required to r
 
 Join the [Swarm Masternode Telegram](https://t.me/swarmmasternodes) group to connect with other Masternode operators and to get help.
 
+This guide assumes:
+- installation will be on a VPS as opposed to a physical machine
+- usage of Ubuntu linux
+- connecting from Windows with Putty
+
 ## <a name="req"></a>Requirements
 
-Installing a SWARM Masternode will require the following setup and specifications on the host machine/VPS:
+Installing a SWARM Masternode will require the following setup and specifications on the host machine/VPS.
 
 - Linux/MacOS with 1GB of RAM and minimum 20GB of disk space dedicated to IPFS data.
 - Git installed
