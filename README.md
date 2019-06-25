@@ -95,7 +95,7 @@ Enter all commands in italics into the PuTTY console. Ensure each command succes
 
 ### Check your Masternode is running
 
-Go to http://MASTERNODE_IP_ADDRESS_HERE/ipfs/QmZRdN9ioYdVm6oRBnENr5W9z5jdjbXRTGQg3iuGScUFTG/#/
+Go to http://MASTERNODE_IP_ADDRESS_HERE/ipfs/QmcLG6cyNA2Lx85GVBiw56gGvHiQzKgxR9cQ1vgz6rwhZ8/#/
 
 ### Register your Masternode
 
