@@ -1,6 +1,8 @@
 # SWARM Masternodes
 
-This repository contains instructions, commands and configurations required to run a SWARM Masternode. SWARM Masternodes are a way for anyone to provide services to the SWARM network - and to earn rewards for doing so. 
+This repository contains instructions, commands and configurations required to run a SWARM Masternode. SWARM Masternodes are a way for anyone to provide services to the SWARM network - and to be rewarded for doing so.
+
+Join the Swarm Masternode Telegram group https://t.me/swarmmasternodes to connect with other Masternode operators and to get help.
 
 ## <a name="req"></a>Requirements
 
