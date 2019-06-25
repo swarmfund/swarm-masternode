@@ -22,7 +22,7 @@ Set up a Virtual Private Server (VPS) with Ubuntu Server 18 LTS 64bit, meeting t
 
 **Minimum Specifications:**
 * 1 Virtual CPU
-* 2 GB RAM
+* 1 GB RAM
 * 20 GB Hard Disk
 * 2 TB/month transfer
 
