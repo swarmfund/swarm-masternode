@@ -61,7 +61,7 @@ Note: Replace USERNAME with a username you would like to use:
 ### Run PuTTY again and this time sign in with USERNAME and the password you set above
 
 ### Install all necessary dependencies
-Enter all commands in italics into the PuTTY console. Ensure each command successfully completes before entering the next one.
+Enter all commands below into the PuTTY console. Ensure each command successfully completes before entering the next one.
 
 ### Install docker-compose
 1. `sudo apt install docker-compose`
@@ -111,7 +111,7 @@ When you see the success message, you have completed setting up and registering 
 
 ## Additional commands for managing your node
 
-Enter all commands in italics into the PuTTY console. Ensure each command successfully completes before entering the next one.
+Enter all commands below into the PuTTY console. Ensure each command successfully completes before entering the next one.
 
 Start in the root/home directory of your USER by entering the command `cd ~`
 
