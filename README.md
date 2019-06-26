@@ -13,6 +13,7 @@ This guide assumes:
 
 Installing a SWARM Masternode will require the following setup and specifications on the host machine/VPS.
 
+- 50,000 SWM tokens in a single wallet (only one Masternode can be set up per wallet)
 - Linux/MacOS with 1GB of RAM and minimum 20GB of disk space dedicated to IPFS data.
 - Git installed
 - [Docker CE](https://docs.docker.com/install/ "") & [Docker Compose](https://docs.docker.com/compose/install/ "") installed
@@ -130,3 +131,11 @@ Start in the root/home directory of your USER by entering the command `cd ~`
 1.  `cd masternode`
 2. `git pull`
 3. `sudo sh masternode.sh restart`
+
+### Generating a new Masternode ID
+If, for any reason, you need to register your node again from scratch, use the following commands to generate a new MNID
+1. `cd masternode`
+2. `sh masternode down`
+3. `rm -rf ipfs`
+4. `mkdir -p ipfs/staging`
+5. `sh masternode up`
