@@ -121,25 +121,25 @@ Start in the root/home directory of your USER by entering the command `cd ~`
 
 ### Stopping your node:
 1. `cd masternode`
-2. `sudo sh masternode.sh stop`
+2. `sh masternode.sh stop`
 
 ### Stopping and removing your node instance:
 1. `cd masternode`
-2. `sudo sh masternode.sh down`
+2. `sh masternode.sh down`
 
 ### Upgrading container images:
 1. `cd masternode`
-2. `sudo sh masternode.sh upgrade`
+2. `sh masternode.sh upgrade`
 
 ### Upgrading masternode configuration and scripts:
-1.  `cd masternode`
+1. `cd masternode`
 2. `git pull`
-3. `sudo sh masternode.sh restart`
+3. `sh masternode.sh restart`
 
 ### Generating a new Masternode ID
 If, for any reason, you need to register your node again from scratch, use the following commands to generate a new MNID
 1. `cd masternode`
-2. `sh masternode down`
+2. `sh masternode.sh down`
 3. `rm -rf ipfs`
 4. `mkdir -p ipfs/staging`
-5. `sh masternode up`
+5. `sh masternode.sh up`
