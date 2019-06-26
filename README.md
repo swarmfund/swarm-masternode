@@ -19,11 +19,11 @@ Installing a SWARM Masternode will require the following setup and specification
 - [Docker CE](https://docs.docker.com/install/ "") & [Docker Compose](https://docs.docker.com/compose/install/ "") installed
 - Public static IP address, with firewall allowing public TCP ports (80 & 4001)
 - Publicly available TCP Ports:
-  1. 80 for Nginx
-  2. 4001 for IPFS
+  - 80 for Nginx
+  - 4001 for IPFS
 - Free local TCP ports containers will bind on:
-  1. 8080
-  2. 5001
+  - 8080
+  - 5001
 
 ## Detailed step-by-step installation guide
 Set up a Virtual Private Server (VPS) with Ubuntu Server 18 LTS 64bit, meeting the following minimum requirements. Then proceed to connecting and setting up your Masternode:
@@ -98,6 +98,12 @@ Enter all commands below into the PuTTY console. Ensure each command successfull
 
 Go to http://MASTERNODE_IP_ADDRESS_HERE/ipfs/QmUrLEFJAfAFhSYoWYnrUhxEDL2WwGJZkYijepLpLuRZ1r/#/
 
+If your Masternode is properly connected, you should be able to see following page: 
+
+![alt text][welcome]
+
+[welcome]: https://github.com/swarmfund/swarm-masternode/blob/master/welcome.png "Welcome Page"
+
 ### Register your Masternode
 
 Go to https://masternodes.swarm.fund/ and follow the instructions.
@@ -105,8 +111,6 @@ Go to https://masternodes.swarm.fund/ and follow the instructions.
 When you see the success message, you have completed setting up and registering your SWARM Masternode.
 
 ## CONGRATULATIONS!
-
-
 
 
 ## Additional commands for managing your node
