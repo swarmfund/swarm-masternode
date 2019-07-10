@@ -3,6 +3,7 @@ services:
     nginx:
         image: nginx
         container_name: mn_nginx
+        restart: always
         ports:
             - '80:80'
         volumes:
@@ -13,6 +14,7 @@ services:
     ipfs:
         image: swarmmasternodes/go-ipfs
         container_name: mn_ipfs
+        restart: always
         ports:
             - '4001:4001'
             - '127.0.0.1:5001:5001'
