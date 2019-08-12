@@ -119,6 +119,9 @@ Enter all commands below into the PuTTY console. Ensure each command successfull
 
 Start in the root/home directory of your USER by entering the command `cd ~`
 
+### Obtaining your Masternode ID: 
+1. `docker exec mn_ipfs ipfs id`
+
 ### Stopping your node:
 1. `cd masternode`
 2. `sh masternode.sh stop`
